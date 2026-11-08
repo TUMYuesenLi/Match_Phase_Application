@@ -1,0 +1,99 @@
+file,column,parsed_type_example,unit_or_coding,description,missing_values
+behaviour_occurrences.csv,Match_id,object,identifier,Match identifier; full names use NFC Unicode,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,phase_occurrence_id,float64,identifier,"Formal phase index, unique within match; original numeric index",Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,Episode,float64,0/1,"Possession-team assignment: 1=home team, 0=away team",Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,Phase,object,category,One of the six phase names; source spelling Counter attack retained,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,Phase_result,object,Successful/Unsuccessful,Binary occurrence outcome label,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,success,int64,0/1,"Rounded phase success outcome, used as logistic response",Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,duration_s,float64,seconds,Observed phase frames divided by 25 Hz,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,Team,object,text,Team name assigned to this possession team,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,Rank,float64,rank,Final league position for the possession team,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,Strength,object,category,"O1/O2: Top 4, Middle, Bottom 4; O4: Top, Middle, Bottom; ranks 1-4,5-14,15-18",Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,Season,object,season,Bundesliga season,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_forward_pass_distance_m,float64,metres,Mean longitudinal pass displacement; can be negative,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_lateral_pass_distance_m,float64,metres,Mean absolute lateral pass displacement,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_pass_angle_to_goal_deg,float64,degrees,Mean angle between pass vector and start-to-goal vector,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,pass_frequency_per_s,float64,1/second,Number of possession-team passes / phase duration,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_carry_duration_s,float64,seconds,Mean duration of carries within the phase,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_carry_forward_dx_m,float64,metres,Mean signed longitudinal carry displacement,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_carry_lateral_distance_m,float64,metres,Mean absolute lateral carry displacement,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_attackers_in_box,float64,players,Mean possession-team players inside opposing penalty area,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_attacker_defender_ratio,float64,ratio,Mean ratio of attackers to defenders inside opposing penalty area,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_IBA_player_EMP,float64,W/kg,Phase-mean equivalent metabolic power for IBA players,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_non_IBA_teammates_EMP,float64,W/kg,Phase-mean EMP for possession teammates excluding IBA player,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_team_hull_length_m,float64,metres,Mean longitudinal convex-hull extent of possession-team outfield players,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_team_hull_width_m,float64,metres,Mean lateral convex-hull extent of possession-team outfield players,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,mean_team_hull_length_width_ratio,float64,ratio,Mean longitudinal/lateral hull ratio,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,n_passes,float64,count,Aggregated possession-team pass count within phase,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,n_height_classified,float64,count,Passes with classifiable ball height within phase,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,n_high_passes,float64,count,Classified passes exceeding 1.5 m height,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,high_pass_proportion,float64,proportion,n_high_passes / n_height_classified; missing if no classified height,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,n_switch_classified,float64,count,Passes with classifiable switch-play criteria,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,n_switch_passes,float64,count,Passes with start/end lateral zones at least two zones apart,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,n_crosses,int64,count,Aggregated Cross occurrences within phase; no action-level rows released,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,n_carries,int64,count,Aggregated carry count,Empty CSV fields are missing; do not replace them by zero unless specified in code
+behaviour_occurrences.csv,total_carry_duration_s,float64,seconds,Total merged carry duration; divide by phase duration for carry time share,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,Match_id,object,identifier,Match identifier; full names use NFC Unicode,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,Episode,int64,0/1,"Possession-team assignment: 1=home team, 0=away team",Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,Phase_pred_filtered_aim_filtered_fixed,object,phase name,Original source name of Phase,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,Phase_pred_filtered_aim_filtered_fixed_indices,float64,identifier,Original source name of phase_occurrence_id,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,start_frame,int64,frame counter,First source frame; case data use original match counters,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,end_frame,int64,frame counter,Last source frame; a phase can contain internal source gaps,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,n_frames,int64,frames,Observed phase frames; not necessarily end-start+1 when source has gaps,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,success_frame_fraction,float64,proportion,Fraction of observed phase frames labelled Successful,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,n_result_labels,int64,count,Number of distinct success labels in formal occurrence,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,is_successful,bool,boolean,Rounded success_frame_fraction; ties to even,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,next_episode,float64,0/1,Possession-team assignment of next classified phase,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,next_phase,object,phase name,"Next classified phase, before same-team merging",Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,next_start_frame,float64,frame counter,First frame of next classified phase,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,frame_gap_to_next,float64,frames,Next start minus current end,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,same_team_next,bool,boolean,Whether next classified phase belongs to the same possession team,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,raw_destination,object,category,"Next phase, interruption with retained possession, or possession switch/sequence end",Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,team_id,object,BVB/B04,Case-study team: Borussia Dortmund or Bayer Leverkusen,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,team,object,text,Team display name,Empty CSV fields are missing; do not replace them by zero unless specified in code
+case_study_formal_occurrences.csv,match_code,object,identifier,DFL-MAT identifier without team names or season,Empty CSV fields are missing; do not replace them by zero unless specified in code
+indicator_scope.csv,Indicator,object,identifier,Indicator column/name; applicability is specified in indicator_scope.csv,Empty CSV fields are missing; do not replace them by zero unless specified in code
+indicator_scope.csv,Indicator_label,object,text,Readable indicator label,Empty CSV fields are missing; do not replace them by zero unless specified in code
+indicator_scope.csv,Stage,object,Continuous/Presence,Continuous or binary predictor; no positive-amount models in current scope,Empty CSV fields are missing; do not replace them by zero unless specified in code
+indicator_scope.csv,Phase,object,category,One of the six phase names; source spelling Counter attack retained,Empty CSV fields are missing; do not replace them by zero unless specified in code
+indicator_scope.csv,used_in_O3,bool,boolean,Include this indicator-phase cell in phase-profile comparisons,Empty CSV fields are missing; do not replace them by zero unless specified in code
+indicator_scope.csv,used_in_O4,bool,boolean,Include this indicator-phase cell in adjusted success models,Empty CSV fields are missing; do not replace them by zero unless specified in code
+indicator_scope.csv,Domain,object,category,Behaviour domain used in the original reporting,Empty CSV fields are missing; do not replace them by zero unless specified in code
+match_metadata.csv,Match_id,object,identifier,Match identifier; full names use NFC Unicode,Empty CSV fields are missing; do not replace them by zero unless specified in code
+match_metadata.csv,Season,object,season,Bundesliga season,Empty CSV fields are missing; do not replace them by zero unless specified in code
+match_metadata.csv,Competition,object,text,Included competition; Bundesliga,Empty CSV fields are missing; do not replace them by zero unless specified in code
+match_metadata.csv,Home,object,text,Home team from match metadata,Empty CSV fields are missing; do not replace them by zero unless specified in code
+match_metadata.csv,Away,object,text,Away team from match metadata,Empty CSV fields are missing; do not replace them by zero unless specified in code
+match_metadata.csv,Home_rank,int64,rank,Home team final league position,Empty CSV fields are missing; do not replace them by zero unless specified in code
+match_metadata.csv,Away_rank,int64,rank,Away team final league position,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,Match_id,object,identifier,Match identifier; full names use NFC Unicode,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,Episode,int64,0/1,"Possession-team assignment: 1=home team, 0=away team",Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,Phase,object,category,One of the six phase names; source spelling Counter attack retained,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,phase_occurrence_id,float64,identifier,"Formal phase index, unique within match; original numeric index",Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,success_frame_fraction,float64,proportion,Fraction of observed phase frames labelled Successful,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,n_frames,int64,frames,Observed phase frames; not necessarily end-start+1 when source has gaps,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,n_result_labels,int64,count,Number of distinct success labels in formal occurrence,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,is_successful,bool,boolean,Rounded success_frame_fraction; ties to even,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,Phase_result,object,Successful/Unsuccessful,Binary occurrence outcome label,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,Team,object,text,Team name assigned to this possession team,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,Venue,object,Home/Away,Possession-team venue,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,Outcome,object,Win/Draw/Lose,Match outcome for possession team; not a model predictor,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,Rank,float64,rank,Final league position for the possession team,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,Strength,object,category,"O1/O2: Top 4, Middle, Bottom 4; O4: Top, Middle, Bottom; ranks 1-4,5-14,15-18",Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_occurrences.csv,duration_s,float64,seconds,Observed phase frames divided by 25 Hz,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_profile_values.csv.gz,Match_id,object,identifier,Match identifier; full names use NFC Unicode,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_profile_values.csv.gz,phase_occurrence_id,int64,identifier,"Formal phase index, unique within match; original numeric index",Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_profile_values.csv.gz,Indicator,object,identifier,Indicator column/name; applicability is specified in indicator_scope.csv,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_profile_values.csv.gz,Stage,object,Continuous/Presence,Continuous or binary predictor; no positive-amount models in current scope,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_profile_values.csv.gz,Phase,object,category,One of the six phase names; source spelling Counter attack retained,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_profile_values.csv.gz,Exposure,float64,indicator units,Original value used by O3; full-precision parsing preserves ties,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_time_counts.csv,match,object,identifier,"Match identifier, same role as Match_id",Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_time_counts.csv,Episode,float64,0/1,"Possession-team assignment: 1=home team, 0=away team",Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_time_counts.csv,category,object,category,"Phase name, equivalent to Phase",Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_time_counts.csv,n_frames,int64,frames,Observed phase frames; not necessarily end-start+1 when source has gaps,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_time_counts.csv,total_frames,int64,frames,Total classified in-possession frames for this team-match,Empty CSV fields are missing; do not replace them by zero unless specified in code
+phase_time_counts.csv,distribution,float64,proportion,Phase classified frames / total classified team-match frames,Empty CSV fields are missing; do not replace them by zero unless specified in code
+spatial_weighted_histogram.csv,Phase,object,category,One of the six phase names; source spelling Counter attack retained,Empty CSV fields are missing; do not replace them by zero unless specified in code
+spatial_weighted_histogram.csv,x_bin,int64,0..69,"Longitudinal spatial histogram bin on [0,105] m",Empty CSV fields are missing; do not replace them by zero unless specified in code
+spatial_weighted_histogram.csv,y_bin,int64,0..45,"Lateral spatial histogram bin on [0,68] m",Empty CSV fields are missing; do not replace them by zero unless specified in code
+spatial_weighted_histogram.csv,weighted_count,float64,weight,Sum of 1/valid phase-frame-count over frames in this bin,Empty CSV fields are missing; do not replace them by zero unless specified in code

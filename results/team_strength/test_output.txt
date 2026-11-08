@@ -1,0 +1,74 @@
+Native SciPy outputs: team-strength comparisons
+
+Build Up: Kruskal-Wallis, Top 4 / Middle / Bottom 4
+KruskalResult(statistic=36.542159925014495, pvalue=1.161370509512499e-08)
+
+Build Up: Top 4 vs Middle
+MannwhitneyuResult(statistic=8928.0, pvalue=3.265502159243288e-09)
+
+Build Up: Top 4 vs Bottom 4
+MannwhitneyuResult(statistic=3622.0, pvalue=0.0005458106199575871)
+
+Build Up: Middle vs Bottom 4
+MannwhitneyuResult(statistic=3745.0, pvalue=0.03704555261231348)
+
+Progression: Kruskal-Wallis, Top 4 / Middle / Bottom 4
+KruskalResult(statistic=37.19375107609683, pvalue=8.384546414146158e-09)
+
+Progression: Top 4 vs Middle
+MannwhitneyuResult(statistic=9013.5, pvalue=1.0930101928676476e-09)
+
+Progression: Top 4 vs Bottom 4
+MannwhitneyuResult(statistic=3651.5, pvalue=0.00035626449662293143)
+
+Progression: Middle vs Bottom 4
+MannwhitneyuResult(statistic=3975.0, pvalue=0.13161834936224637)
+
+Counter attack: Kruskal-Wallis, Top 4 / Middle / Bottom 4
+KruskalResult(statistic=1.1167949318983323, pvalue=0.5721251796811277)
+
+Counter attack: Top 4 vs Middle
+MannwhitneyuResult(statistic=4932.0, pvalue=0.32149850711364736)
+
+Counter attack: Top 4 vs Bottom 4
+MannwhitneyuResult(statistic=2243.5, pvalue=0.7385256591414705)
+
+Counter attack: Middle vs Bottom 4
+MannwhitneyuResult(statistic=4535.5, pvalue=0.5292334050919647)
+
+Maintenance: Kruskal-Wallis, Top 4 / Middle / Bottom 4
+KruskalResult(statistic=22.789730052537436, pvalue=1.1253121217155227e-05)
+
+Maintenance: Top 4 vs Middle
+MannwhitneyuResult(statistic=8336.5, pvalue=2.7368677181511217e-06)
+
+Maintenance: Top 4 vs Bottom 4
+MannwhitneyuResult(statistic=3560.5, pvalue=0.0012754298758792075)
+
+Maintenance: Middle vs Bottom 4
+MannwhitneyuResult(statistic=4327.5, pvalue=0.5334823178811512)
+
+Sustained Threat: Kruskal-Wallis, Top 4 / Middle / Bottom 4
+KruskalResult(statistic=22.81777284105263, pvalue=1.1096437794940969e-05)
+
+Sustained Threat: Top 4 vs Middle
+MannwhitneyuResult(statistic=7931.5, pvalue=0.00011861611068650337)
+
+Sustained Threat: Top 4 vs Bottom 4
+MannwhitneyuResult(statistic=3873.5, pvalue=9.780491598197816e-06)
+
+Sustained Threat: Middle vs Bottom 4
+MannwhitneyuResult(statistic=5097.0, pvalue=0.19119783044260408)
+
+Finishing: Kruskal-Wallis, Top 4 / Middle / Bottom 4
+KruskalResult(statistic=15.517588002024038, pvalue=0.00042697119714146803)
+
+Finishing: Top 4 vs Middle
+MannwhitneyuResult(statistic=6485.5, pvalue=0.3939155072657634)
+
+Finishing: Top 4 vs Bottom 4
+MannwhitneyuResult(statistic=3622.5, pvalue=8.678018243850238e-05)
+
+Finishing: Middle vs Bottom 4
+MannwhitneyuResult(statistic=5654.5, pvalue=0.001358938925550174)
+

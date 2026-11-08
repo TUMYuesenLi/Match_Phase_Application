@@ -1,0 +1,25 @@
+team_id,team,profile,phase,phase_proportion
+BVB,Borussia Dortmund,Selected match,Build Up,0.4152699092963865
+BVB,Borussia Dortmund,Selected match,Counter attack,0.0197845422256142
+BVB,Borussia Dortmund,Selected match,Finishing,0.0038453635483018
+BVB,Borussia Dortmund,Selected match,Maintenance,0.2652420230721813
+BVB,Borussia Dortmund,Selected match,Progression,0.1646461384917955
+BVB,Borussia Dortmund,Selected match,Sustained Threat,0.1312120233657205
+BVB,Borussia Dortmund,General,Build Up,0.46511537517945317
+BVB,Borussia Dortmund,General,Counter attack,0.01698634510035667
+BVB,Borussia Dortmund,General,Finishing,0.0042547981746881855
+BVB,Borussia Dortmund,General,Maintenance,0.16931401247008054
+BVB,Borussia Dortmund,General,Progression,0.18953055352229722
+BVB,Borussia Dortmund,General,Sustained Threat,0.15479891555312403
+B04,Bayer 04 Leverkusen,Selected match,Build Up,0.2427815128779759
+B04,Bayer 04 Leverkusen,Selected match,Counter attack,0.0073078047354574
+B04,Bayer 04 Leverkusen,Selected match,Finishing,0.0010718113612004
+B04,Bayer 04 Leverkusen,Selected match,Maintenance,0.1939004189808048
+B04,Bayer 04 Leverkusen,Selected match,Progression,0.2822436584494462
+B04,Bayer 04 Leverkusen,Selected match,Sustained Threat,0.2726947935951151
+B04,Bayer 04 Leverkusen,General,Build Up,0.29148269105849983
+B04,Bayer 04 Leverkusen,General,Counter attack,0.026307991524181017
+B04,Bayer 04 Leverkusen,General,Finishing,0.0044137406556213005
+B04,Bayer 04 Leverkusen,General,Maintenance,0.18615819111229392
+B04,Bayer 04 Leverkusen,General,Progression,0.2634858423812049
+B04,Bayer 04 Leverkusen,General,Sustained Threat,0.22815154326819875

@@ -1,0 +1,18 @@
+Domain,Indicator,Indicator_label,Stage,Test,Statistic,df,p_raw,n_phases,n_occurrences,n_matches,partial_eta_squared,q_BH_across_indicators,Supported
+Passing,mean_forward_pass_distance_m,Pass forward length (m),Continuous,Kruskal-Wallis,13552.544489916065,4,0.0,5,51835,146,0.26146051799814907,0.0,True
+Passing,mean_lateral_pass_distance_m,Pass lateral length (m),Continuous,Kruskal-Wallis,2407.1560226399406,4,0.0,5,51835,146,0.04643971182312656,0.0,True
+Passing,mean_pass_angle_to_goal_deg,Pass angle to goal (deg),Continuous,Kruskal-Wallis,14953.45659184315,4,0.0,5,51831,146,0.2885096776354078,0.0,True
+Passing,pass_frequency_per_s,Pass frequency (s-1),Continuous,Kruskal-Wallis,619.1961875735234,4,1.0850632301730381e-132,5,51835,146,0.011945753512627062,1.0850632301730381e-132,True
+Ball carrying style,mean_carry_duration_s,Carry duration (s),Continuous,Kruskal-Wallis,2712.1472054920587,5,0.0,6,44850,146,0.06047285793422508,0.0,True
+Ball carrying style,mean_carry_forward_dx_m,Carry forward length (m),Continuous,Kruskal-Wallis,9674.483039279525,5,0.0,6,44850,146,0.21571234674752066,0.0,True
+Ball carrying style,mean_carry_lateral_distance_m,Carry lateral length (m),Continuous,Kruskal-Wallis,1919.0724226735117,5,0.0,6,44850,146,0.042789636840811086,0.0,True
+Box occupation,mean_attackers_in_box,Players inside box,Continuous,Kruskal-Wallis,1124.0988531424405,1,1.9106793012466714e-246,2,11889,146,0.09455744054024534,2.0300967575745885e-246,True
+Box occupation,mean_attacker_defender_ratio,Attacker/defender ratio,Continuous,Kruskal-Wallis,1368.3896300913536,1,1.554123954779351e-299,2,11867,146,0.11532021153643664,1.7613404820832644e-299,True
+EMP,mean_IBA_player_EMP,IBA player EMP (W·kg-1),Continuous,Kruskal-Wallis,5050.56804518725,5,0.0,6,60236,146,0.08384773047542518,0.0,True
+EMP,mean_non_IBA_teammates_EMP,Non-IBA teammates EMP (W·kg-1),Continuous,Kruskal-Wallis,11226.290477265662,5,0.0,6,60260,146,0.1863006435099433,0.0,True
+Team structure,mean_team_hull_length_m,Convex-hull length (m),Continuous,Kruskal-Wallis,5571.947279953714,3,0.0,4,57174,146,0.09745766847906705,0.0,True
+Team structure,mean_team_hull_width_m,Convex-hull width (m),Continuous,Kruskal-Wallis,3296.0017047672623,3,0.0,4,57174,146,0.057649619659057065,0.0,True
+Team structure,mean_team_hull_length_width_ratio,Convex-hull length/width,Continuous,Kruskal-Wallis,6770.514436562196,3,0.0,4,57174,146,0.1184215352799788,0.0,True
+Passing events,switch_play,Switch-play presence,Presence,Pearson chi-square,1811.8471335214363,4,0.0,5,58608,146,0.030914672630382164,0.0,True
+Passing events,high_pass_ratio_zero_inclusive,High-pass ratio,Continuous,Kruskal-Wallis,1837.9331566342412,4,0.0,5,51244,146,0.03586700928193644,0.0,True
+Ball carrying style,carry_time_share,Carry time share,Continuous,Kruskal-Wallis,2714.171200559873,5,0.0,6,60701,146,0.044714517307411335,0.0,True

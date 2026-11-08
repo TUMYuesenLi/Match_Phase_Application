@@ -1,0 +1,631 @@
+Native SciPy outputs: between-phase behaviour comparisons
+
+mean_forward_pass_distance_m: Kruskal-Wallis
+KruskalResult(statistic=13552.544489916065, pvalue=0.0)
+
+mean_forward_pass_distance_m: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=44540712.0, pvalue=0.0)
+
+mean_forward_pass_distance_m: Build Up vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=3509591.0, pvalue=0.0)
+
+mean_forward_pass_distance_m: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=79797567.5, pvalue=0.38426657777528495)
+
+mean_forward_pass_distance_m: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=64617539.0, pvalue=0.23304843894889526)
+
+mean_forward_pass_distance_m: Progression vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=11630985.5, pvalue=9.090880653797273e-07)
+
+mean_forward_pass_distance_m: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=122144691.0, pvalue=0.0)
+
+mean_forward_pass_distance_m: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=111233673.0, pvalue=0.0)
+
+mean_forward_pass_distance_m: Counter attack vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=9271611.0, pvalue=5.397888418111621e-158)
+
+mean_forward_pass_distance_m: Counter attack vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=8618320.0, pvalue=0.0)
+
+mean_forward_pass_distance_m: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=39492838.5, pvalue=0.3029482524115421)
+
+mean_lateral_pass_distance_m: Kruskal-Wallis
+KruskalResult(statistic=2407.1560226399406, pvalue=0.0)
+
+mean_lateral_pass_distance_m: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=164649605.5, pvalue=2.855881044099688e-281)
+
+mean_lateral_pass_distance_m: Build Up vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=12962296.0, pvalue=3.8528407184473194e-49)
+
+mean_lateral_pass_distance_m: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=78582393.0, pvalue=0.22821511867524868)
+
+mean_lateral_pass_distance_m: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=82664389.5, pvalue=1.015276371271969e-296)
+
+mean_lateral_pass_distance_m: Progression vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=10738865.5, pvalue=0.9472243875659727)
+
+mean_lateral_pass_distance_m: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=63760886.5, pvalue=1.2969380052023289e-200)
+
+mean_lateral_pass_distance_m: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=69676266.0, pvalue=1.3039233888558061e-11)
+
+mean_lateral_pass_distance_m: Counter attack vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=4834393.5, pvalue=7.839942901588964e-45)
+
+mean_lateral_pass_distance_m: Counter attack vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=5431144.0, pvalue=0.000895116265157405)
+
+mean_lateral_pass_distance_m: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=50208208.5, pvalue=2.256591761538358e-231)
+
+mean_pass_angle_to_goal_deg: Kruskal-Wallis
+KruskalResult(statistic=14953.45659184315, pvalue=0.0)
+
+mean_pass_angle_to_goal_deg: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=226293876.0, pvalue=0.0)
+
+mean_pass_angle_to_goal_deg: Build Up vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=17849398.0, pvalue=0.0)
+
+mean_pass_angle_to_goal_deg: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=72620694.5, pvalue=5.750765465784724e-30)
+
+mean_pass_angle_to_goal_deg: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=69265184.5, pvalue=2.0719741607349324e-25)
+
+mean_pass_angle_to_goal_deg: Progression vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=10707582.0, pvalue=0.8097852357416062)
+
+mean_pass_angle_to_goal_deg: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=30197532.0, pvalue=0.0)
+
+mean_pass_angle_to_goal_deg: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=27944772.0, pvalue=0.0)
+
+mean_pass_angle_to_goal_deg: Counter attack vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=2238498.0, pvalue=0.0)
+
+mean_pass_angle_to_goal_deg: Counter attack vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=2061878.0, pvalue=1.512350860587715e-261)
+
+mean_pass_angle_to_goal_deg: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=44551754.0, pvalue=3.488689005410577e-57)
+
+pass_frequency_per_s: Kruskal-Wallis
+KruskalResult(statistic=619.1961875735234, pvalue=1.0850632301730381e-132)
+
+pass_frequency_per_s: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=144787769.5, pvalue=1.79316580091597e-36)
+
+pass_frequency_per_s: Build Up vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=13050088.0, pvalue=1.9075806339207697e-52)
+
+pass_frequency_per_s: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=89238537.5, pvalue=9.47977805285683e-65)
+
+pass_frequency_per_s: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=74029249.5, pvalue=5.295866196421344e-87)
+
+pass_frequency_per_s: Progression vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=12582055.5, pvalue=1.6838819555857666e-24)
+
+pass_frequency_per_s: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=86096342.5, pvalue=4.656131104514092e-12)
+
+pass_frequency_per_s: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=70785725.0, pvalue=5.639571428411532e-19)
+
+pass_frequency_per_s: Counter attack vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=5642127.5, pvalue=3.6821164357963446e-11)
+
+pass_frequency_per_s: Counter attack vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=4612910.5, pvalue=4.163191867335444e-09)
+
+pass_frequency_per_s: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=39873997.5, pvalue=0.03165432526208991)
+
+mean_carry_duration_s: Kruskal-Wallis
+KruskalResult(statistic=2712.1472054920587, pvalue=0.0)
+
+mean_carry_duration_s: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=116562367.0, pvalue=1.7061277103047698e-200)
+
+mean_carry_duration_s: Build Up vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=6857511.5, pvalue=2.262778504291809e-30)
+
+mean_carry_duration_s: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=54502417.0, pvalue=0.09114465048143963)
+
+mean_carry_duration_s: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=50938861.0, pvalue=0.13997823561482436)
+
+mean_carry_duration_s: Build Up vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=9120853.5, pvalue=0.0)
+
+mean_carry_duration_s: Progression vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=5390448.5, pvalue=9.6437271890987e-92)
+
+mean_carry_duration_s: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=42762405.5, pvalue=2.9404920680892394e-137)
+
+mean_carry_duration_s: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=39656918.0, pvalue=8.644411071837365e-138)
+
+mean_carry_duration_s: Progression vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=8093462.5, pvalue=9.04942432884773e-217)
+
+mean_carry_duration_s: Counter attack vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=5473151.5, pvalue=6.102241620877844e-17)
+
+mean_carry_duration_s: Counter attack vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=5222993.5, pvalue=1.475262408787407e-22)
+
+mean_carry_duration_s: Counter attack vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=793681.5, pvalue=2.697346662563746e-228)
+
+mean_carry_duration_s: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=28939358.0, pvalue=0.45819581244353735)
+
+mean_carry_duration_s: Maintenance vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=4960783.0, pvalue=3.36322752044612e-284)
+
+mean_carry_duration_s: Sustained Threat vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=4691291.0, pvalue=2.3297800127023336e-299)
+
+mean_carry_forward_dx_m: Kruskal-Wallis
+KruskalResult(statistic=9674.483039279525, pvalue=0.0)
+
+mean_carry_forward_dx_m: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=47564835.5, pvalue=0.0)
+
+mean_carry_forward_dx_m: Build Up vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=2166143.0, pvalue=0.0)
+
+mean_carry_forward_dx_m: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=69482447.5, pvalue=1.0157804181665508e-219)
+
+mean_carry_forward_dx_m: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=39006833.5, pvalue=1.3161791489560585e-188)
+
+mean_carry_forward_dx_m: Build Up vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=3818281.5, pvalue=3.57343447694088e-22)
+
+mean_carry_forward_dx_m: Progression vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=5096295.5, pvalue=9.415438536391046e-111)
+
+mean_carry_forward_dx_m: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=87364538.5, pvalue=0.0)
+
+mean_carry_forward_dx_m: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=62636512.5, pvalue=6.422970619354108e-196)
+
+mean_carry_forward_dx_m: Progression vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=6700694.5, pvalue=2.6608959721074334e-75)
+
+mean_carry_forward_dx_m: Counter attack vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=8516146.0, pvalue=0.0)
+
+mean_carry_forward_dx_m: Counter attack vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=6957291.5, pvalue=7.868451350781126e-219)
+
+mean_carry_forward_dx_m: Counter attack vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=723256.0, pvalue=6.864243857797917e-151)
+
+mean_carry_forward_dx_m: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=16547537.5, pvalue=0.0)
+
+mean_carry_forward_dx_m: Maintenance vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=1476035.0, pvalue=7.895792523292911e-89)
+
+mean_carry_forward_dx_m: Sustained Threat vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=2790564.0, pvalue=1.4183685220628545e-05)
+
+mean_carry_lateral_distance_m: Kruskal-Wallis
+KruskalResult(statistic=1919.0724226735117, pvalue=0.0)
+
+mean_carry_lateral_distance_m: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=119264209.0, pvalue=3.629897404292378e-257)
+
+mean_carry_lateral_distance_m: Build Up vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=8128671.5, pvalue=0.004470227179083929)
+
+mean_carry_lateral_distance_m: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=63358910.5, pvalue=1.4571308185069868e-72)
+
+mean_carry_lateral_distance_m: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=60365997.5, pvalue=2.1198740649379757e-93)
+
+mean_carry_lateral_distance_m: Build Up vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=8179371.0, pvalue=5.056819354699048e-199)
+
+mean_carry_lateral_distance_m: Progression vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=6100957.5, pvalue=2.6995125381473384e-53)
+
+mean_carry_lateral_distance_m: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=49265578.0, pvalue=4.2431821998421145e-24)
+
+mean_carry_lateral_distance_m: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=46277556.5, pvalue=4.158364149761091e-20)
+
+mean_carry_lateral_distance_m: Progression vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=6747625.5, pvalue=7.290438410420117e-79)
+
+mean_carry_lateral_distance_m: Counter attack vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=5639007.0, pvalue=5.824567724780392e-25)
+
+mean_carry_lateral_distance_m: Counter attack vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=5340229.0, pvalue=2.412499516956603e-29)
+
+mean_carry_lateral_distance_m: Counter attack vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=701612.5, pvalue=2.3546135952760078e-130)
+
+mean_carry_lateral_distance_m: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=29063605.5, pvalue=0.2290969214060382)
+
+mean_carry_lateral_distance_m: Maintenance vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=4076651.5, pvalue=1.687391168874074e-105)
+
+mean_carry_lateral_distance_m: Sustained Threat vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=3849683.5, pvalue=2.205452284551029e-112)
+
+mean_attackers_in_box: Kruskal-Wallis
+KruskalResult(statistic=1124.0988531424405, pvalue=1.9106793012466714e-246)
+
+mean_attackers_in_box: Sustained Threat vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=5481135.0, pvalue=1.910904632020673e-246)
+
+mean_attacker_defender_ratio: Kruskal-Wallis
+KruskalResult(statistic=1368.3896300913536, pvalue=1.554123954779351e-299)
+
+mean_attacker_defender_ratio: Sustained Threat vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=4921244.0, pvalue=1.554327269510021e-299)
+
+mean_IBA_player_EMP: Kruskal-Wallis
+KruskalResult(statistic=5050.56804518725, pvalue=0.0)
+
+mean_IBA_player_EMP: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=118454262.0, pvalue=0.0)
+
+mean_IBA_player_EMP: Build Up vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=5482039.0, pvalue=1.0982484272003138e-266)
+
+mean_IBA_player_EMP: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=112949286.0, pvalue=1.587914482465012e-140)
+
+mean_IBA_player_EMP: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=66819544.0, pvalue=1.0067072471834836e-168)
+
+mean_IBA_player_EMP: Build Up vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=16808356.0, pvalue=0.012619564157456147)
+
+mean_IBA_player_EMP: Progression vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=9782048.5, pvalue=1.3194001208216752e-63)
+
+mean_IBA_player_EMP: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=144279908.0, pvalue=0.0)
+
+mean_IBA_player_EMP: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=98764905.5, pvalue=9.200932496463439e-34)
+
+mean_IBA_player_EMP: Progression vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=22201023.0, pvalue=2.4322763580179235e-39)
+
+mean_IBA_player_EMP: Counter attack vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=12934389.0, pvalue=0.0)
+
+mean_IBA_player_EMP: Counter attack vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=9580968.5, pvalue=7.537686990361007e-121)
+
+mean_IBA_player_EMP: Counter attack vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=2027495.0, pvalue=2.1092893375241756e-93)
+
+mean_IBA_player_EMP: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=35375477.0, pvalue=0.0)
+
+mean_IBA_player_EMP: Maintenance vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=9118835.0, pvalue=1.5237558863781684e-40)
+
+mean_IBA_player_EMP: Sustained Threat vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=11046656.0, pvalue=1.0257042220963549e-19)
+
+mean_non_IBA_teammates_EMP: Kruskal-Wallis
+KruskalResult(statistic=11226.290477265662, pvalue=0.0)
+
+mean_non_IBA_teammates_EMP: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=78172385.0, pvalue=0.0)
+
+mean_non_IBA_teammates_EMP: Build Up vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=1543940.0, pvalue=0.0)
+
+mean_non_IBA_teammates_EMP: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=98544726.0, pvalue=0.0001430979465147699)
+
+mean_non_IBA_teammates_EMP: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=63197384.0, pvalue=2.7740095442952683e-248)
+
+mean_non_IBA_teammates_EMP: Build Up vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=15834409.0, pvalue=4.0073656683819335e-12)
+
+mean_non_IBA_teammates_EMP: Progression vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=6407879.0, pvalue=7.476373342084458e-236)
+
+mean_non_IBA_teammates_EMP: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=157103460.0, pvalue=0.0)
+
+mean_non_IBA_teammates_EMP: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=117930836.0, pvalue=0.0)
+
+mean_non_IBA_teammates_EMP: Progression vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=25778579.0, pvalue=3.0013543744848196e-157)
+
+mean_non_IBA_teammates_EMP: Counter attack vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=14710014.0, pvalue=0.0)
+
+mean_non_IBA_teammates_EMP: Counter attack vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=12086173.0, pvalue=0.0)
+
+mean_non_IBA_teammates_EMP: Counter attack vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=2522009.0, pvalue=2.0780387216031954e-305)
+
+mean_non_IBA_teammates_EMP: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=40191582.0, pvalue=1.0717681381339376e-223)
+
+mean_non_IBA_teammates_EMP: Maintenance vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=10055296.0, pvalue=1.804051793778759e-14)
+
+mean_non_IBA_teammates_EMP: Sustained Threat vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=10908587.0, pvalue=1.1647846357614577e-14)
+
+mean_team_hull_length_m: Kruskal-Wallis
+KruskalResult(statistic=5571.947279953714, pvalue=0.0)
+
+mean_team_hull_length_m: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=158824017.0, pvalue=2.0536440195727794e-05)
+
+mean_team_hull_length_m: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=55794665.5, pvalue=0.0)
+
+mean_team_hull_length_m: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=55909056.0, pvalue=0.0)
+
+mean_team_hull_length_m: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=64344476.5, pvalue=0.0)
+
+mean_team_hull_length_m: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=64009784.0, pvalue=0.0)
+
+mean_team_hull_length_m: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=61020534.0, pvalue=9.829077244163814e-43)
+
+mean_team_hull_width_m: Kruskal-Wallis
+KruskalResult(statistic=3296.0017047672623, pvalue=0.0)
+
+mean_team_hull_width_m: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=192650124.0, pvalue=4.802870526838501e-196)
+
+mean_team_hull_width_m: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=114114955.0, pvalue=2.305142796415619e-136)
+
+mean_team_hull_width_m: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=121770009.5, pvalue=0.0)
+
+mean_team_hull_width_m: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=105534729.5, pvalue=0.7585245866057513)
+
+mean_team_hull_width_m: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=112655339.0, pvalue=1.2919842951376242e-207)
+
+mean_team_hull_width_m: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=66809903.0, pvalue=2.991255216076509e-159)
+
+mean_team_hull_length_width_ratio: Kruskal-Wallis
+KruskalResult(statistic=6770.514436562196, pvalue=0.0)
+
+mean_team_hull_length_width_ratio: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=133677317.0, pvalue=5.966236308812798e-193)
+
+mean_team_hull_length_width_ratio: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=57605675.0, pvalue=0.0)
+
+mean_team_hull_length_width_ratio: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=40010011.0, pvalue=0.0)
+
+mean_team_hull_length_width_ratio: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=80648588.0, pvalue=1.0362432794809235e-260)
+
+mean_team_hull_length_width_ratio: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=58223409.0, pvalue=0.0)
+
+mean_team_hull_length_width_ratio: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=47828249.0, pvalue=4.7135967022785863e-60)
+
+Observed contingency table for switch_play
+Exposure            0.0   1.0
+Phase                        
+Build Up          14054  3259
+Progression       17643  1195
+Counter attack     1319   110
+Maintenance       10230  1001
+Sustained Threat   9154   643
+Expected frequencies
+[[15479.135954135954    1833.864045864046  ]
+ [16842.601692601693    1995.3983073983075 ]
+ [ 1277.6344526344526    151.36554736554737]
+ [10041.366366366366    1189.6336336336337 ]
+ [ 8759.261534261534    1037.7384657384657 ]]
+switch_play: Pearson chi-square
+Chi2ContingencyResult(statistic=1811.8471335214363, pvalue=0.0, dof=4, expected_freq=array([[15479.13595414,  1833.86404586],
+       [16842.6016926 ,  1995.3983074 ],
+       [ 1277.63445263,   151.36554737],
+       [10041.36636637,  1189.63363363],
+       [ 8759.26153426,  1037.73846574]]))
+
+Observed contingency table
+Exposure       0.0   1.0
+Phase                   
+Build Up     14054  3259
+Progression  17643  1195
+switch_play: Build Up vs Progression, Fisher exact
+SignificanceResult(statistic=0.29208621429793946, pvalue=1.2958904931998254e-292)
+
+Observed contingency table
+Exposure          0.0   1.0
+Phase                      
+Build Up        14054  3259
+Counter attack   1319   110
+switch_play: Build Up vs Counter attack, Fisher exact
+SignificanceResult(statistic=0.3596362647462989, pvalue=1.4643141259885773e-30)
+
+Observed contingency table
+Exposure       0.0   1.0
+Phase                   
+Build Up     14054  3259
+Maintenance  10230  1001
+switch_play: Build Up vs Maintenance, Fisher exact
+SignificanceResult(statistic=0.4219626707842963, pvalue=1.8637210772755157e-123)
+
+Observed contingency table
+Exposure            0.0   1.0
+Phase                        
+Build Up          14054  3259
+Sustained Threat   9154   643
+switch_play: Build Up vs Sustained Threat, Fisher exact
+SignificanceResult(statistic=0.30291142466069154, pvalue=4.06209247918592e-186)
+
+Observed contingency table
+Exposure          0.0   1.0
+Phase                      
+Progression     17643  1195
+Counter attack   1319   110
+switch_play: Progression vs Counter attack, Fisher exact
+SignificanceResult(statistic=1.231267506447448, pvalue=0.05015873277509869)
+
+Observed contingency table
+Exposure       0.0   1.0
+Phase                   
+Progression  17643  1195
+Maintenance  10230  1001
+switch_play: Progression vs Maintenance, Fisher exact
+SignificanceResult(statistic=1.4446511000134972, pvalue=2.9685684820189016e-16)
+
+Observed contingency table
+Exposure            0.0   1.0
+Phase                        
+Progression       17643  1195
+Sustained Threat   9154   643
+switch_play: Progression vs Sustained Threat, Fisher exact
+SignificanceResult(statistic=1.0370616955982386, pvalue=0.47678562831339033)
+
+Observed contingency table
+Exposure          0.0   1.0
+Phase                      
+Counter attack   1319   110
+Maintenance     10230  1001
+switch_play: Counter attack vs Maintenance, Fisher exact
+SignificanceResult(statistic=1.1733040078201369, pvalue=0.13632736628841008)
+
+Observed contingency table
+Exposure           0.0  1.0
+Phase                      
+Counter attack    1319  110
+Sustained Threat  9154  643
+switch_play: Counter attack vs Sustained Threat, Fisher exact
+SignificanceResult(statistic=0.8422716348541125, pvalue=0.11292214737709329)
+
+Observed contingency table
+Exposure            0.0   1.0
+Phase                        
+Maintenance       10230  1001
+Sustained Threat   9154   643
+switch_play: Maintenance vs Sustained Threat, Fisher exact
+SignificanceResult(statistic=0.7178630851342235, pvalue=2.2325541766165955e-10)
+
+high_pass_ratio_zero_inclusive: Kruskal-Wallis
+KruskalResult(statistic=1837.9331566342412, pvalue=0.0)
+
+high_pass_ratio_zero_inclusive: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=104753521.0, pvalue=1.8154144587989475e-300)
+
+high_pass_ratio_zero_inclusive: Build Up vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=8636618.0, pvalue=1.2272520666904183e-28)
+
+high_pass_ratio_zero_inclusive: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=67731484.5, pvalue=2.1838855453005483e-96)
+
+high_pass_ratio_zero_inclusive: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=62677945.5, pvalue=0.016464268466695308)
+
+high_pass_ratio_zero_inclusive: Progression vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=11281092.5, pvalue=2.344742233698502e-06)
+
+high_pass_ratio_zero_inclusive: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=87888688.0, pvalue=2.066591566185832e-45)
+
+high_pass_ratio_zero_inclusive: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=77137404.0, pvalue=6.461433935076397e-206)
+
+high_pass_ratio_zero_inclusive: Counter attack vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=6377805.0, pvalue=0.08301549804548493)
+
+high_pass_ratio_zero_inclusive: Counter attack vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=5714682.5, pvalue=2.5507801480464966e-30)
+
+high_pass_ratio_zero_inclusive: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=42764659.0, pvalue=3.8051055662521315e-78)
+
+carry_time_share: Kruskal-Wallis
+KruskalResult(statistic=2714.171200559873, pvalue=0.0)
+
+carry_time_share: Build Up vs Progression, Mann-Whitney U
+MannwhitneyuResult(statistic=196230783.0, pvalue=2.014481017934487e-248)
+
+carry_time_share: Build Up vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=10793969.0, pvalue=8.758181068134324e-16)
+
+carry_time_share: Build Up vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=112477028.0, pvalue=8.028383550585104e-113)
+
+carry_time_share: Build Up vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=89975186.0, pvalue=4.9983685564871496e-17)
+
+carry_time_share: Build Up vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=28136128.5, pvalue=0.0)
+
+carry_time_share: Progression vs Counter attack, Mann-Whitney U
+MannwhitneyuResult(statistic=9459318.5, pvalue=5.590953942413288e-80)
+
+carry_time_share: Progression vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=102076039.0, pvalue=2.565990286375785e-07)
+
+carry_time_share: Progression vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=80968972.0, pvalue=2.4780975179044186e-66)
+
+carry_time_share: Progression vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=27719878.5, pvalue=4.407982870957811e-211)
+
+carry_time_share: Counter attack vs Maintenance, Mann-Whitney U
+MannwhitneyuResult(statistic=10001958.0, pvalue=2.468076232962384e-53)
+
+carry_time_share: Counter attack vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=8194517.5, pvalue=7.762918392454321e-26)
+
+carry_time_share: Counter attack vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=2404786.5, pvalue=1.2094397221668387e-228)
+
+carry_time_share: Maintenance vs Sustained Threat, Mann-Whitney U
+MannwhitneyuResult(statistic=50539184.5, pvalue=6.695496972057058e-25)
+
+carry_time_share: Maintenance vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=16568837.0, pvalue=1.3744704240005608e-204)
+
+carry_time_share: Sustained Threat vs Finishing, Mann-Whitney U
+MannwhitneyuResult(statistic=15117638.0, pvalue=2.267874373002898e-264)
+

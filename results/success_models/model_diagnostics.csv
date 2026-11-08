@@ -1,0 +1,84 @@
+Analysis_id,Indicator,Indicator_label,Stage,Phase,n_occurrences_all,n_matches_all,n_occurrences_informative_matches,n_informative_matches,converged,design_rank,n_parameters,max_abs_coefficient,max_standard_error,stable
+mean_forward_pass_distance_m__Continuous,mean_forward_pass_distance_m,Pass forward length (m),Continuous,Build Up,16104,146,16104,146,True,150,150,1.1505028754616038,0.3791443668192155,True
+mean_forward_pass_distance_m__Continuous,mean_forward_pass_distance_m,Pass forward length (m),Continuous,Progression,16642,146,16642,146,True,150,150,1.1104842272018554,0.3774712592420456,True
+mean_forward_pass_distance_m__Continuous,mean_forward_pass_distance_m,Pass forward length (m),Continuous,Counter attack,1292,146,1158,122,True,126,126,4.936576148390263,1.8483859079409601,True
+mean_forward_pass_distance_m__Continuous,mean_forward_pass_distance_m,Pass forward length (m),Continuous,Maintenance,9847,146,9847,146,True,150,150,1.5510774665900613,0.627811671056404,True
+mean_forward_pass_distance_m__Continuous,mean_forward_pass_distance_m,Pass forward length (m),Continuous,Sustained Threat,7950,146,7950,146,True,150,150,2.4984356017915674,1.113789965784046,True
+mean_lateral_pass_distance_m__Continuous,mean_lateral_pass_distance_m,Pass lateral length (m),Continuous,Build Up,16104,146,16104,146,True,150,150,1.0036991162314157,0.3793656452358101,True
+mean_lateral_pass_distance_m__Continuous,mean_lateral_pass_distance_m,Pass lateral length (m),Continuous,Progression,16642,146,16642,146,True,150,150,1.0525017811636574,0.3801845459990885,True
+mean_lateral_pass_distance_m__Continuous,mean_lateral_pass_distance_m,Pass lateral length (m),Continuous,Counter attack,1292,146,1158,122,True,126,126,4.941765974365539,1.7302371939870715,True
+mean_lateral_pass_distance_m__Continuous,mean_lateral_pass_distance_m,Pass lateral length (m),Continuous,Maintenance,9847,146,9847,146,True,150,150,1.3379639204491531,0.46613480538567503,True
+mean_lateral_pass_distance_m__Continuous,mean_lateral_pass_distance_m,Pass lateral length (m),Continuous,Sustained Threat,7950,146,7950,146,True,150,150,2.482187965778499,1.1139195461037539,True
+mean_pass_angle_to_goal_deg__Continuous,mean_pass_angle_to_goal_deg,Pass angle to goal (deg),Continuous,Build Up,16104,146,16104,146,True,150,150,1.0784514003907237,0.376738194262304,True
+mean_pass_angle_to_goal_deg__Continuous,mean_pass_angle_to_goal_deg,Pass angle to goal (deg),Continuous,Progression,16642,146,16642,146,True,150,150,1.0764459606076096,0.3774058782737547,True
+mean_pass_angle_to_goal_deg__Continuous,mean_pass_angle_to_goal_deg,Pass angle to goal (deg),Continuous,Counter attack,1292,146,1158,122,True,126,126,4.615177188534147,1.8193846975743557,True
+mean_pass_angle_to_goal_deg__Continuous,mean_pass_angle_to_goal_deg,Pass angle to goal (deg),Continuous,Maintenance,9846,146,9846,146,True,150,150,1.4351892683686036,0.5243313934096546,True
+mean_pass_angle_to_goal_deg__Continuous,mean_pass_angle_to_goal_deg,Pass angle to goal (deg),Continuous,Sustained Threat,7947,146,7947,146,True,150,150,2.461094516713411,1.1135051005562278,True
+pass_frequency_per_s__Continuous,pass_frequency_per_s,Pass frequency (s-1),Continuous,Build Up,16104,146,16104,146,True,150,150,1.0923675464913338,0.37869545701992047,True
+pass_frequency_per_s__Continuous,pass_frequency_per_s,Pass frequency (s-1),Continuous,Progression,16642,146,16642,146,True,150,150,1.0328327048918713,0.38133113228304366,True
+pass_frequency_per_s__Continuous,pass_frequency_per_s,Pass frequency (s-1),Continuous,Counter attack,1292,146,1158,122,True,126,126,5.244696823104032,1.7487923351678083,True
+pass_frequency_per_s__Continuous,pass_frequency_per_s,Pass frequency (s-1),Continuous,Maintenance,9847,146,9847,146,True,150,150,1.5193493356047902,0.470589280223594,True
+pass_frequency_per_s__Continuous,pass_frequency_per_s,Pass frequency (s-1),Continuous,Sustained Threat,7950,146,7950,146,True,150,150,2.4079895963817157,1.1134747967900251,True
+mean_carry_duration_s__Continuous,mean_carry_duration_s,Carry duration (s),Continuous,Build Up,14083,146,14083,146,True,150,150,1.2703010999725441,0.3978280534831013,True
+mean_carry_duration_s__Continuous,mean_carry_duration_s,Carry duration (s),Continuous,Progression,13688,146,13688,146,True,150,150,1.217244797765705,0.45334732641098086,True
+mean_carry_duration_s__Continuous,mean_carry_duration_s,Carry duration (s),Continuous,Counter attack,1214,146,1011,112,True,116,116,5.182674998211583,2.3434911818570203,True
+mean_carry_duration_s__Continuous,mean_carry_duration_s,Carry duration (s),Continuous,Maintenance,7848,146,7848,146,True,150,150,1.590035771479015,0.5391356508583672,True
+mean_carry_duration_s__Continuous,mean_carry_duration_s,Carry duration (s),Continuous,Sustained Threat,7324,146,7278,145,True,149,149,2.475911329549316,0.8855875187091311,True
+mean_carry_duration_s__Continuous,mean_carry_duration_s,Carry duration (s),Continuous,Finishing,693,144,503,91,True,95,95,3.0133395004619317,2.1171853907758043,True
+mean_carry_forward_dx_m__Continuous,mean_carry_forward_dx_m,Carry forward length (m),Continuous,Build Up,14083,146,14083,146,True,150,150,1.2766119464747117,0.3977218692594317,True
+mean_carry_forward_dx_m__Continuous,mean_carry_forward_dx_m,Carry forward length (m),Continuous,Progression,13688,146,13688,146,True,150,150,1.2138967468955864,0.45380259678712664,True
+mean_carry_forward_dx_m__Continuous,mean_carry_forward_dx_m,Carry forward length (m),Continuous,Counter attack,1214,146,1011,112,True,116,116,4.991113752233152,2.313033411047617,True
+mean_carry_forward_dx_m__Continuous,mean_carry_forward_dx_m,Carry forward length (m),Continuous,Maintenance,7848,146,7848,146,True,150,150,1.7738891872854317,0.5371856785812398,True
+mean_carry_forward_dx_m__Continuous,mean_carry_forward_dx_m,Carry forward length (m),Continuous,Sustained Threat,7324,146,7278,145,True,149,149,2.387922926882831,0.8851715838263303,True
+mean_carry_forward_dx_m__Continuous,mean_carry_forward_dx_m,Carry forward length (m),Continuous,Finishing,693,144,503,91,True,95,95,3.168893384676056,2.123198938321058,True
+mean_carry_lateral_distance_m__Continuous,mean_carry_lateral_distance_m,Carry lateral length (m),Continuous,Build Up,14083,146,14083,146,True,150,150,1.2794302092604035,0.3977512925488723,True
+mean_carry_lateral_distance_m__Continuous,mean_carry_lateral_distance_m,Carry lateral length (m),Continuous,Progression,13688,146,13688,146,True,150,150,1.2146483642151256,0.45358685517758696,True
+mean_carry_lateral_distance_m__Continuous,mean_carry_lateral_distance_m,Carry lateral length (m),Continuous,Counter attack,1214,146,1011,112,True,116,116,5.179484437918378,2.350452070495807,True
+mean_carry_lateral_distance_m__Continuous,mean_carry_lateral_distance_m,Carry lateral length (m),Continuous,Maintenance,7848,146,7848,146,True,150,150,1.7285125985376215,0.5323711470169072,True
+mean_carry_lateral_distance_m__Continuous,mean_carry_lateral_distance_m,Carry lateral length (m),Continuous,Sustained Threat,7324,146,7278,145,True,149,149,2.379835245958585,0.8854612632590624,True
+mean_carry_lateral_distance_m__Continuous,mean_carry_lateral_distance_m,Carry lateral length (m),Continuous,Finishing,693,144,503,91,True,95,95,2.55532984712489,2.2074892897113396,True
+mean_attackers_in_box__Continuous,mean_attackers_in_box,Players inside box,Continuous,Sustained Threat,9796,146,9796,146,True,150,150,2.364161281600539,0.737749939404688,True
+mean_attackers_in_box__Continuous,mean_attackers_in_box,Players inside box,Continuous,Finishing,2093,146,1941,131,True,135,135,2.7416880083181114,1.324856367822973,True
+mean_attacker_defender_ratio__Continuous,mean_attacker_defender_ratio,Attacker/defender ratio,Continuous,Sustained Threat,9793,146,9793,146,True,150,150,2.3566373908127978,0.7381771846782094,True
+mean_attacker_defender_ratio__Continuous,mean_attacker_defender_ratio,Attacker/defender ratio,Continuous,Finishing,2074,146,1896,129,True,133,133,2.7405219126379468,1.3520473322907627,True
+mean_IBA_player_EMP__Continuous,mean_IBA_player_EMP,IBA player EMP (W·kg-1),Continuous,Build Up,17260,146,17260,146,True,150,150,0.9828345332840587,0.36402653434030074,True
+mean_IBA_player_EMP__Continuous,mean_IBA_player_EMP,IBA player EMP (W·kg-1),Continuous,Progression,18703,146,18703,146,True,150,150,1.0534083023363805,0.3632074274456381,True
+mean_IBA_player_EMP__Continuous,mean_IBA_player_EMP,IBA player EMP (W·kg-1),Continuous,Counter attack,1427,146,1322,128,True,132,132,3.3638133346666432,1.68188227502832,True
+mean_IBA_player_EMP__Continuous,mean_IBA_player_EMP,IBA player EMP (W·kg-1),Continuous,Maintenance,11118,146,11118,146,True,150,150,1.60611225619386,0.4412600342208388,True
+mean_IBA_player_EMP__Continuous,mean_IBA_player_EMP,IBA player EMP (W·kg-1),Continuous,Sustained Threat,9712,146,9712,146,True,150,150,2.4044213367659766,0.7367938752881151,True
+mean_IBA_player_EMP__Continuous,mean_IBA_player_EMP,IBA player EMP (W·kg-1),Continuous,Finishing,2016,146,1842,129,True,133,133,2.723757248784655,1.3529453732208259,True
+mean_non_IBA_teammates_EMP__Continuous,mean_non_IBA_teammates_EMP,Non-IBA teammates EMP (W·kg-1),Continuous,Build Up,17263,146,17263,146,True,150,150,0.9727484654358789,0.36428294160869734,True
+mean_non_IBA_teammates_EMP__Continuous,mean_non_IBA_teammates_EMP,Non-IBA teammates EMP (W·kg-1),Continuous,Progression,18709,146,18709,146,True,150,150,1.0445904463251945,0.3678058171729189,True
+mean_non_IBA_teammates_EMP__Continuous,mean_non_IBA_teammates_EMP,Non-IBA teammates EMP (W·kg-1),Continuous,Counter attack,1427,146,1322,128,True,132,132,3.4288770244799482,1.7247005737404038,True
+mean_non_IBA_teammates_EMP__Continuous,mean_non_IBA_teammates_EMP,Non-IBA teammates EMP (W·kg-1),Continuous,Maintenance,11120,146,11120,146,True,150,150,1.5786483747179048,0.43703579321346825,True
+mean_non_IBA_teammates_EMP__Continuous,mean_non_IBA_teammates_EMP,Non-IBA teammates EMP (W·kg-1),Continuous,Sustained Threat,9716,146,9716,146,True,150,150,2.4019040934119267,0.7424668995340236,True
+mean_non_IBA_teammates_EMP__Continuous,mean_non_IBA_teammates_EMP,Non-IBA teammates EMP (W·kg-1),Continuous,Finishing,2025,146,1850,129,True,133,133,2.7425917025710405,1.359019297498832,True
+mean_team_hull_length_m__Continuous,mean_team_hull_length_m,Convex-hull length (m),Continuous,Build Up,17313,146,17313,146,True,150,150,0.9623863309843956,0.36371481028920916,True
+mean_team_hull_length_m__Continuous,mean_team_hull_length_m,Convex-hull length (m),Continuous,Progression,18835,146,18835,146,True,150,150,1.0231780864918314,0.360720142939413,True
+mean_team_hull_length_m__Continuous,mean_team_hull_length_m,Convex-hull length (m),Continuous,Maintenance,11230,146,11230,146,True,150,150,1.505717045518566,0.4380636667364819,True
+mean_team_hull_length_m__Continuous,mean_team_hull_length_m,Convex-hull length (m),Continuous,Sustained Threat,9796,146,9796,146,True,150,150,2.376554980792285,0.7368365923896641,True
+mean_team_hull_width_m__Continuous,mean_team_hull_width_m,Convex-hull width (m),Continuous,Build Up,17313,146,17313,146,True,150,150,1.0186913625204035,0.3643671118770877,True
+mean_team_hull_width_m__Continuous,mean_team_hull_width_m,Convex-hull width (m),Continuous,Progression,18835,146,18835,146,True,150,150,0.9350742872068353,0.3619890550240118,True
+mean_team_hull_width_m__Continuous,mean_team_hull_width_m,Convex-hull width (m),Continuous,Maintenance,11230,146,11230,146,True,150,150,1.4499812876343119,0.4395650310549759,True
+mean_team_hull_width_m__Continuous,mean_team_hull_width_m,Convex-hull width (m),Continuous,Sustained Threat,9796,146,9796,146,True,150,150,2.395981357029305,0.7379136722005575,True
+mean_team_hull_length_width_ratio__Continuous,mean_team_hull_length_width_ratio,Convex-hull length/width,Continuous,Build Up,17313,146,17313,146,True,150,150,0.9828960526700268,0.36382152899298453,True
+mean_team_hull_length_width_ratio__Continuous,mean_team_hull_length_width_ratio,Convex-hull length/width,Continuous,Progression,18835,146,18835,146,True,150,150,0.9773959220386239,0.36113368864785694,True
+mean_team_hull_length_width_ratio__Continuous,mean_team_hull_length_width_ratio,Convex-hull length/width,Continuous,Maintenance,11230,146,11230,146,True,150,150,1.5529580784258106,0.43674453087246756,True
+mean_team_hull_length_width_ratio__Continuous,mean_team_hull_length_width_ratio,Convex-hull length/width,Continuous,Sustained Threat,9796,146,9796,146,True,150,150,2.3735594243051814,0.7382759485818442,True
+switch_play__Presence,switch_play,Switch-play presence,Presence,Build Up,17313,146,17313,146,True,150,150,0.9459061619488046,0.36406686715671943,True
+switch_play__Presence,switch_play,Switch-play presence,Presence,Progression,18838,146,18838,146,True,150,150,1.053019178611358,0.36124187613996406,True
+switch_play__Presence,switch_play,Switch-play presence,Presence,Counter attack,1429,146,1324,128,True,132,132,3.565953659723557,1.6426975859920314,True
+switch_play__Presence,switch_play,Switch-play presence,Presence,Maintenance,11231,146,11231,146,True,150,150,1.5752870002724566,0.43579824892582053,True
+switch_play__Presence,switch_play,Switch-play presence,Presence,Sustained Threat,9797,146,9797,146,True,150,150,2.419284374380165,0.7366366419295327,True
+cross__Presence,cross,Cross,Presence,Sustained Threat,9797,146,9797,146,True,150,150,2.40638754084423,0.7369537177771416,True
+high_pass_ratio_zero_inclusive__Continuous,high_pass_ratio_zero_inclusive,High-pass ratio,Continuous,Build Up,16047,146,16047,146,True,150,150,1.034615777636139,0.3816415703248696,True
+high_pass_ratio_zero_inclusive__Continuous,high_pass_ratio_zero_inclusive,High-pass ratio,Continuous,Progression,16495,146,16495,146,True,150,150,1.0536322721593037,0.3772728238420609,True
+high_pass_ratio_zero_inclusive__Continuous,high_pass_ratio_zero_inclusive,High-pass ratio,Continuous,Counter attack,1276,146,1143,122,True,126,126,5.017220300334,1.7182618337438065,True
+high_pass_ratio_zero_inclusive__Continuous,high_pass_ratio_zero_inclusive,High-pass ratio,Continuous,Maintenance,9736,146,9736,146,True,150,150,1.4165423746135795,0.5256394549478599,True
+high_pass_ratio_zero_inclusive__Continuous,high_pass_ratio_zero_inclusive,High-pass ratio,Continuous,Sustained Threat,7690,146,7690,146,True,150,150,2.4101495695899207,1.1137578444649532,True
+carry_time_share__Continuous,carry_time_share,Carry time share,Continuous,Build Up,17313,146,17313,146,True,150,150,0.9841062156278146,0.3722126176212283,True
+carry_time_share__Continuous,carry_time_share,Carry time share,Continuous,Progression,18838,146,18838,146,True,150,150,1.097580851330907,0.37470883049915366,True
+carry_time_share__Continuous,carry_time_share,Carry time share,Continuous,Counter attack,1429,146,1324,128,True,132,132,4.014821516302747,1.6422089732183918,True
+carry_time_share__Continuous,carry_time_share,Carry time share,Continuous,Maintenance,11231,146,11231,146,True,150,150,1.1714649646972333,0.4753786450185936,True
+carry_time_share__Continuous,carry_time_share,Carry time share,Continuous,Sustained Threat,9797,146,9797,146,True,150,150,2.447988323838985,0.7410251252690793,True
+carry_time_share__Continuous,carry_time_share,Carry time share,Continuous,Finishing,2093,146,1941,131,True,135,135,2.66616108889983,1.3242432310549848,True

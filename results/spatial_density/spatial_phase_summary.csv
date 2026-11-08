@@ -1,0 +1,7 @@
+Phase,n_phase_occurrences_with_valid_positions,weighted_bin_sum,x_bins,y_bins,pitch_length_m,pitch_width_m,gaussian_sigma_bins,boundary_mode,density_normalization
+Build Up,17568,17568.0,70,46,105,68,1.45,nearest,phase maximum equals 1
+Progression,19117,19117.0,70,46,105,68,1.45,nearest,phase maximum equals 1
+Counter attack,1435,1435.0,70,46,105,68,1.45,nearest,phase maximum equals 1
+Maintenance,11635,11635.0,70,46,105,68,1.45,nearest,phase maximum equals 1
+Sustained Threat,10157,10157.0,70,46,105,68,1.45,nearest,phase maximum equals 1
+Finishing,2090,2090.0,70,46,105,68,1.45,nearest,phase maximum equals 1
